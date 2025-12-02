@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+  color: #16133D;
+
+}
+
+#header1 {
+  font-size: 35px;
+  padding-bottom: 22.5px;
+  padding-top: 22.5px;
+}
+
+h1 {
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+#line {
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid #EFEEF3;
+
+}
+
+h2 {
+  font-size: 40px;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #7690A8;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 121px 135px 121px 135px;
+}
+
+.box {
+  padding: 40px;
+  text-align: left;
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+}
+
+#phone,
+#building,
+#megaphone {
+  border: 1px solid #E5EAF4;
+  padding: 13px;
+  border-radius: 8px;
+}
+
+#box1:hover,
+#box2:hover,
+#box3:hover {
+  border-color: #3DB370;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  font-size: 16px;
+  color: #3DB370;
+  text-decoration: none;
+}
+
+.icon {
+  margin-left: 135px;
+  transition: fill 0.3s;
+
+}
+
+#git,
+#facebook,
+#instagram,
+#bribbble,
+#twitter {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+#git:hover,
+#facebook:hover,
+#instagram:hover,
+#bribbble:hover,
+#twitter:hover {
+  fill: #3DB370;
+}
+
+
+footer {
+  background-color: #16133D;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
