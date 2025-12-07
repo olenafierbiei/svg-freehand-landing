@@ -69,19 +69,51 @@ h3 {
   border-radius: 8px;
 }
 
-#phone,
-#building,
-#megaphone {
-  border: 1px solid #E5EAF4;
-  padding: 13px;
-  border-radius: 8px;
-}
+
 
 #box1:hover,
 #box2:hover,
 #box3:hover {
   border-color: #3DB370;
   cursor: pointer;
+}
+
+#box1:hover .megaphone {
+  fill: #E8F3FF;
+}
+
+#box1:hover .megaphone[fill="#007FFC"] {
+  fill: #3DB370;
+}
+
+#box2:hover .building[fill="#D1E7FF"],
+#box2:hover .building[fill="#E8F3FF"] {
+  fill: #E0F2E9;
+}
+
+#box2:hover .building[fill="#B9DCFF"] {
+  fill: #BCE2C9;
+}
+
+#box2:hover .building[fill="#007FFC"] {
+  fill: #3DB370;
+}
+
+#box3:hover .phone[fill="#D1E7FF"],
+#box3:hover .phone[fill="#E8F3FF"] {
+  fill: #E0F2E9;
+}
+
+#box3:hover .phone[fill="#B9DCFF"] {
+  fill: #BCE2C9;
+}
+
+#box3:hover .phone[fill="#007FFC"] {
+  fill: #3DB370;
+}
+
+.services svg path {
+  transition: fill 0.3s ease-in-out;
 }
 
 h4 {
@@ -104,15 +136,18 @@ a {
 
 }
 
-#git,
-#facebook,
-#instagram,
-#bribbble,
-#twitter {
-  cursor: pointer;
-  transition: background-color 0.3s;
+.icon svg rect,
+.icon svg path {
+  transition: fill 0.3s, background-color 0.3s;
 }
 
+.icon a:hover rect {
+  fill: #3DB370;
+}
+
+.icon a:hover path {
+  fill: #FFFFFF;
+}
 
 
 
